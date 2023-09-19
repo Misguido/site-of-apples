@@ -1,0 +1,238 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*            End of CSS Reset            */
+
+/*                 Setup                  */
+
+/*               Borderbox                */
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/* clearfix */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  clear: both;
+  *zoom: 1;
+}
+/*               End of Setup             */
+
+
+/*                  Font                  */
+@font-face {
+  font-family: "Myriad Set Pro";
+  src: url("fonts/myriad-set-pro_bold.ttf") format("truetype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Myriad Set Pro";
+  src: url("fonts/myriad-set-pro_semibold.ttf") format("truetype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Myriad Set Pro";
+  src: url("fonts/myriad-set-pro_medium.ttf") format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Myriad Set Pro";
+  src: url("fonts/myriad-set-pro_text.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Myriad Set Pro";
+  src: url("fonts/myriad-set-pro_thin.ttf") format("truetype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Myriad Set Pro";
+  src: url("fonts/myriad-set-pro_ultralight.ttf") format("truetype");
+  font-weight: 100;
+}
+
+body {
+  font-family: "Myriad Set Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 18px;
+  line-height: 1.45;
+  font-weight: 400;
+  letter-spacing: normal;
+  color: #333;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: #d6d6e4;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+header {
+  background-color: black;
+}
+
+header nav li {
+  display: inline-block;
+  padding: 0 20px;
+  width: 10%;
+  text-align: center;
+}
+
+#hero {
+  text-align: center;
+}
+
+#hero img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+#sub-hero {
+  font-size: 0;
+/*  background-size: cover;
+  background-position: center;*/
+}
+
+.col-3 {
+  display: inline-block;
+  width: 25%;
+  text-align: center;
+  max-width: 100%;
+}
+
+.col-3 img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.linkada {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+.linkada p {
+  text-align: center;
+}
+
+.ender {
+  font-size: 0;
+}
+
+.outro-box {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+}
+
+.endering {
+  font-size: 12px;
+  display: inline-block;
+  width: 20%;
+  vertical-align: top;
+}
+
+.title-end {
+  font-weight: 600;
+  line-height: 1.333337;
+  margin-bottom: 0.8em;
+ }
+
+.before-title {
+  margin-bottom: 10px;
+}
+
+.row-marker {
+  font-size: 12px;
+}
+
+
+.lastone ul, .lastone li, #locale, .footer-legal {
+  display: inline-block;
+}
+
+.footer-legal {
+  margin-right: 10px;
+}
+
+.footer-list {
+  margin-right: 10px;
+  padding-right: 10px;
+  border-right: 1px solid black;
+  text-align: center;
+}
+
+.title-end-column {
+  text-align: left;
+  margin-right: 20px;
+  margin-bottom: 3px;
+}
+
+#locale {
+  float: right;
+}
+
+#locale img {
+  vertical-align: middle;
+  margin-right: 5px;
+}

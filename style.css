@@ -236,3 +236,7 @@ header nav li {
   vertical-align: middle;
   margin-right: 5px;
 }
+
+h5 a {
+  margin-right: 10px;
+}

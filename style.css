@@ -240,3 +240,21 @@ header nav li {
 h5 a {
   margin-right: 10px;
 }
+
+#hero h1 {
+
+  font-size: 4rem;
+
+}
+
+#hero h2 {
+
+  font-size: 3rem;
+
+}
+
+#hero h5 {
+
+  font-size: 1.5rem;
+
+}
